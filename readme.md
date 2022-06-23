@@ -122,6 +122,8 @@ OPEN_IDE_COMMAND = "emacs"
 ```
 # Creating Templates and Makefiles
 
+Feel free to change / remove default templates / makefiles. Jam will work fine with or without them. 
+
 ## Template System
 
 Whenever you create a new project, Jam will use one of the templates in the Jam/templates folder. Jam comes included with a default template folder that will work with all 3 of the makefiles included. If you want to make new templates, simply go into the Jam/templates folder, create a new folder, and occupy it with what you want a project to look like when you start it. To make a template the default template, just change the name to 'default'. 
