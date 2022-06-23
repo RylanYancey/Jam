@@ -36,6 +36,8 @@ Options:
 
 \<makefile name>: The name of the makefile you want to use. Makefiles are stored in Jam/makefiles. If left blank, the 'default' makefile will be used. 
 
+Note: Jam new will also initialize an empty repository using `git init` in this new project.
+
 ## Jam add \<path/to/file>
 
 Used to move an existing project into Jam. 
