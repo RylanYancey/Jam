@@ -10,7 +10,7 @@ Jam's main features are:
 - Project Loader
 - Archiver
 
-Jam currently only supports VSCode by default, but it is very easy to change it to work for Emacs or some other text editor by changing 2 lines. 
+Jam currently only supports VSCode by default, but it is very easy to change it to work for Emacs or some other text editor by changing a single variable.
 
 In the future, Jam may have the ability to sort projects by most recent, view git information, have an attribute system for classifying projects, and support other languages. For now, Jam is very basic. 
 
