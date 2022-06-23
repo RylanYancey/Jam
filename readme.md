@@ -1,4 +1,8 @@
 
+## Important! Note for Existing Users!
+
+Before updating Jam by using `git clone`, be sure to backup your `Jam/projects/` folder in a location other than Jam, to avoid your projects being lost. 
+
 # WHAT IS JAM?
 
 Jam is a Project Manager for C++ beginners. 
