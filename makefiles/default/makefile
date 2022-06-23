@@ -75,7 +75,7 @@ objects := $(src1:source/%=bin/%)
 #
 # if we only had a main.cpp in source, and were including the armadillo library. 
 all : $(objects)
-	$(CC) -o run $(objects)
+	$(CC) -o $(NAME_OF_BIN) $(objects)
 
 # Generate object files by compiling .cpp and .h files
 bin/%.o : source/%.cpp
