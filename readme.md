@@ -124,7 +124,7 @@ function new {
 ```
 ^^ At the top of Jam.sh, there is code like this. Change OPEN_IDE_COMMAND to whatever text editor you want to use. For VScode, leave as is, for Emacs, change it to 
 ```
-OPEN_IDE_COMMAND = "emacs"
+OPEN_IDE_COMMAND="emacs"
 ```
 # Creating Templates and Makefiles
 
