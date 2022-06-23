@@ -57,7 +57,7 @@ NAME_OF_BIN = run
 # into a .o file, and to look for header and source files in the ./header and ./source
 # folders, states by using the -I flag.  
 CC = mpiCC
-CFLAGS = -c -I./header -std=c++0x
+CFLAGS = -c -I./header
 
 # Collects all of the source files into a single object. 
 # src = all .cpp in source
@@ -79,9 +79,9 @@ objects := $(src1:source/%=bin/%)
 #
 # if we only had a main.cpp in source, and were including the armadillo library. 
 all : $(objects)
-	$(CC) -o NAME_OF_BIN $(objects) $(LIBRARIES)
+	$(CC) -o $(NAME_OF_BIN) $(objects) $(LIBRARIES)
 ifneq ($(n),)
-	mpirun -np $(n) NAME_OF_BIN
+	mpirun -np $(n) $(NAME_OF_BIN)
 endif
 
 # Recipe for for all bin/.o files, where the prerequisite is the correpsonding source file.
