@@ -1,6 +1,6 @@
 #!/bin/bash/
 
-OPEN_IDE_COMMAND = "code ."
+OPEN_IDE_COMMAND="code ."
 
 # $1 = Name of project
 # $2 = Template to use
