@@ -115,7 +115,7 @@ The first step is to identify what command is used to open your text editor. For
 ```sh
 #!/bin/bash/
 
-OPEN_IDE_COMMAND = "code ."
+OPEN_IDE_COMMAND="code ."
 
 # $1 = Name of project
 # $2 = Template to use
