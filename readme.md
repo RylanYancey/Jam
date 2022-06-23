@@ -106,6 +106,8 @@ source ~/.bash_aliases
 ```
 After doing this, you should now be able to use Jam. If you use `Jam man`, you should see the manual. 
 
+Start using Jam by using Jam new, or Jam add `~/path/to/folder/from/homedir/` to add existing projects.
+
 # Changing Jam to work with Emacs / Vim / other text editors. 
 
 The first step is to identify what command is used to open your text editor. For Emacs, you can just type 'emacs' in the terminal. For Jam, open ~/Jam/config/Jam.sh 
