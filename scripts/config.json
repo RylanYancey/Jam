@@ -1,0 +1,10 @@
+{
+    "OPEN_IDE_COMMAND" : "code .",
+    "CATEGORIES" : [
+        "c++",
+        "cuda",
+        "mpi"
+    ],
+    "PROJECTS" : [],
+    "ARCHIVE" : []
+}
